@@ -1,0 +1,80 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.video-container {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: 'Georgia', serif; /* Elegant font for the title */
+    color: #ffcc00; /* Golden yellow color for the title */
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #1e2a47; /* Dark blue background */
+    color: #f1f1f1; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.tab {
+    padding: 14px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease;
+    .tab:hover
+
+{
+    background-color: #ffcc00; /* Golden color on hover */
+}
+        
+  
+}
+
+.tab.active {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
